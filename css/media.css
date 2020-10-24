@@ -1,0 +1,352 @@
+@media (max-width: 1600px) {
+    .container{
+        max-width: 1140px;
+    }
+    .row{
+        margin: 0 -20px;
+    }
+    .col-4{
+        padding: 0 20px;
+    }
+    .hero{
+        height: 480px;
+    }
+    .products-item{
+        height: 340px;
+        margin-bottom: 60px;
+    }
+    .dish-week{
+        height: 550px;
+    }
+    .dish-btn{
+        font-size: 21px;
+        padding: 10px 45px;
+    }
+    .dish-heading{
+        font-size: 60px;
+    }
+    .substrate{
+        width: 700px;
+        height: 400px;
+    }
+    .dish-subtitle{
+        font-size: 21px;
+    }
+    .footer-top img{
+        max-width: 100px;
+    }
+
+}
+
+
+@media (max-width: 1200px) {
+.container{
+    max-width: 940px;
+}
+    header img{
+      max-width: 100px;
+    }
+    header{
+        padding: 30px 0 35px;
+        font-size: 10px;
+    }
+    .search-input{
+        width: 180px;
+    }
+   .top-menu{
+       font-size: 10px;
+   }
+    .hero{
+        height: 380px;
+    }
+   .info-company{
+       padding: 50px 0 55px;
+   }
+   .info-list-item{
+       max-width: 140px;
+   }
+   .products-item{
+       height: 300px;
+   }
+   .products-img{
+     max-width: 100%;
+   }
+
+    .row{
+        margin: 0 -20px;
+    }
+    .col-4{
+        padding: 0 20px;
+    }
+
+    .dish-week{
+        height: 550px;
+    }
+    .dish-btn{
+        font-size: 21px;
+        padding: 10px 45px;
+    }
+    .dish-heading{
+        font-size: 60px;
+    }
+    .substrate{
+        width: 700px;
+        height: 400px;
+    }
+    .dish-subtitle{
+        font-size: 21px;
+    }
+
+    .footer-top img{
+        max-width: 80px;
+    }
+    .footer-top{
+        font-size: 10px;
+    }
+}
+
+
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 740px;
+    }
+
+    header img {
+        max-width: 100px;
+    }
+
+    header {
+        padding: 30px 0 35px;
+        font-size: 10px;
+    }
+
+    header .container {
+
+    }
+    header .container .left-side, .right-side{
+
+        display: flex;
+
+    }
+    .left-side a:first-child{
+        padding-right: 0;
+    }
+    .left-side a{
+        display: flex;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+    .right-side {
+        display: flex;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+.my-account{
+    display: flex;
+
+}
+    .left-side, .right-side{
+
+    }
+
+
+
+    .top-menu {
+        font-size: 10px;
+        display: none;
+    }
+    .top-menu-item{
+        padding: 5px;
+    }
+    .mobile-menu{
+        display: flex;
+        z-index: 999;
+
+    }
+    .top-menu.show{
+        position: fixed;
+        background: #66ba02;
+        top: 131px;
+        right: 0;
+        width: 30%;
+        height: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        z-index: 99;
+
+    }
+    .top-menu.show .top-menu-item{
+        margin-right: 0;
+    }
+
+
+    .hero {
+        height: 380px;
+    }
+
+    .info-company {
+        padding: 50px 0 55px;
+    }
+
+    .info-list-item {
+        max-width: 140px;
+    }
+
+    .products-item {
+        height: 300px;
+    }
+
+    .products-img {
+        max-width: 100%;
+    }
+
+    .row {
+        margin: 0 -20px;
+    }
+
+    .col-4 {
+        padding: 0 20px;
+    }
+
+    .dish-week {
+        height: 550px;
+    }
+
+    .dish-btn {
+        font-size: 21px;
+        padding: 10px 45px;
+    }
+
+    .dish-heading {
+        font-size: 60px;
+    }
+
+    .substrate {
+        width: 700px;
+        height: 400px;
+    }
+
+    .dish-subtitle {
+        font-size: 21px;
+    }
+
+    .footer-top img {
+        max-width: 80px;
+    }
+
+    .footer-top {
+        font-size: 10px;
+    }
+
+
+    @media (max-width: 768px) {
+        .container {
+            max-width: 540px;
+        }
+
+        header img {
+
+        }
+
+        header {
+            padding: 30px 0 35px;
+            font-size: 10px;
+        }
+
+        .search-input {
+            width: 138px;
+        }
+
+        .top-menu {
+            font-size: 10px;
+        }
+
+        .hero {
+            height: 380px;
+        }
+
+        .info-company {
+            padding: 50px 0 55px;
+        }
+
+        .info-list {
+            display: table;
+            width: 100%;
+            text-align: center;
+        }
+
+        .info-list-item {
+            display: table-row-group;
+        }
+
+        .products-item {
+            height: 300px;
+        }
+
+        .products-img {
+            max-width: 100%;
+        }
+
+        .row {
+            margin: 0 -20px;
+        }
+
+        .col-4 {
+            width: 50%;
+        }
+
+        .dish-week {
+            height: 400px;
+        }
+
+        .dish-btn {
+            font-size: 21px;
+            padding: 10px 45px;
+        }
+
+        .dish-heading {
+            font-size: 60px;
+        }
+
+        .substrate {
+            width: 700px;
+            height: 400px;
+        }
+        .substrate:before {
+            width: 60%;
+            height: 60%;
+            left: 100px;
+            top: 46px;
+        }
+        .substrate:after {
+            width: 60%;
+            height: 60%;
+            right: 100px;
+            bottom: 82px;
+        }
+
+        .dish-subtitle {
+            font-size: 21px;
+        }
+
+        .footer-top img {
+            display: none;
+        }
+
+        .footer-top {
+            font-size: 10px;
+        }
+
+
+    }
+    @media (max-width: 480px) {
+
+    }
+}
